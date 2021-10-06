@@ -6,7 +6,7 @@
                                         $db = "zeus";
                                         //connect to the database
                                         $conn = mysqli_connect($host,$user,$password,$db);
-
+                                        //error checking
                                         if($conn->connect_error)
                                             {
                                                 die("connection faild:" . $conn->connect_error);
