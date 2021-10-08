@@ -69,7 +69,7 @@ if($conn->connect_error)
                     <div class="form-row">
 						<label for="duty_shift">Category</label>
 						<select id="category" name="category" value="<?php echo $row['category'];?>">
-							<option value="hygiene_necessary">Hygiene necessary</option>
+							<option value="hygiene_necessary">Hygiene necessaries</option>
 							<option value="vaccine">vaccines</option>
                             <option value="equipment">Equipment</option>
                             <option value="beds">Beds</option>
