@@ -6,7 +6,7 @@
                                         $db = "zeus";
                                         //connect to the database
                                         $conn = mysqli_connect($host,$user,$password,$db);
-
+                                        //error checking
                                         if($conn->connect_error)
                                             {
                                                 die("connection faild:" . $conn->connect_error);
@@ -15,7 +15,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Admin Dashboard</title>
+  <title>Zeus Admin Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
