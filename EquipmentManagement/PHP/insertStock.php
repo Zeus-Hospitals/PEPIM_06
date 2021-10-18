@@ -3,7 +3,8 @@
    $user = "root";
    $password = "";
    $db = "zeus";
-   //connect to the database
+   
+   //connecting to the database
    $conn = mysqli_connect($host,$user,$password,$db);
 
    if($conn->connect_error)
