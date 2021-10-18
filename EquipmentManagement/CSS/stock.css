@@ -1,8 +1,12 @@
 body {
+    /*beginning of the body*/
     margin: 0;
     color: #e5e5e5;
     background-color: aliceblue;
 }
+
+
+/*end*/
 
 .page-content {
     width: 100%;
