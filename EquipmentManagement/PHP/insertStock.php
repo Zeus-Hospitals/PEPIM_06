@@ -30,7 +30,7 @@ $sql="INSERT INTO `stock`(`id`,`name`,`category`,`brand`,`quantity`
         mysqli_query($conn,$sql);
 }
 
-header("Location: ../HTML/stock.php?insetion=pass");
+header("Location: ../HTML/stock.php?insetion=pass"); //header
 
 
 ?>
