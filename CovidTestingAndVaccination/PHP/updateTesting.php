@@ -91,7 +91,7 @@ if($conn->connect_error)
 				</div>
 
                 <div class="form-row">
-					<label for="Date_of_Admission">Date of Admission </label>
+					<label for="Date_of_Admission">Second Dose Date</label>
 					<input type="text" name="second_dose_date" id="second_dose_date" class="input-text" value="<?php echo $row['second_dose_date'];?>">
 				</div>
 
