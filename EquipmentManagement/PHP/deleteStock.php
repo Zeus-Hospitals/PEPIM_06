@@ -4,7 +4,7 @@ $host = "localhost";
 $user = "root";
 $password = "";
 $db = "zeus";
-//connecting to the database
+//connecting to database
 $conn = mysqli_connect($host,$user,$password,$db);
 
 if($conn->connect_error)
