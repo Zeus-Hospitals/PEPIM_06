@@ -3,7 +3,8 @@
    $user = "root";
    $password = "";
    $db = "zeus";
-   //connect to the database
+   
+   //connecting to the database
    $conn = mysqli_connect($host,$user,$password,$db);
 
    if($conn->connect_error)
@@ -29,7 +30,7 @@ $sql="INSERT INTO `stock`(`id`,`name`,`category`,`brand`,`quantity`
         mysqli_query($conn,$sql);
 }
 
-header("Location: ../HTML/stock.php?insetion=pass");
+header("Location: ../HTML/stock.php?insetion=pass"); //header
 
 
 ?>
